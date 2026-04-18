@@ -1,1 +1,28 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: auto;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: none;
+}
+
+form button {
+    padding: 12px;
+    background: gold;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: white;
+}
+
+.map {
+    margin-top: 20px;
+}
 
